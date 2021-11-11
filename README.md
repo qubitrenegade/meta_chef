@@ -55,3 +55,6 @@ Alternatively use `create_resource` directly.
 
 See `test/fixtures/meta_chef_test/attributes/default.rb` for example usage.
 
+## Test Kitchen
+
+Test kitchen leverages Kitchen-Dokken.  On any system with Chef Workstation and Docker installed, `kitchen verify` or `kitchen test` will execute the test fixture cookbook in `test/fixtures/meta_chef_test`
